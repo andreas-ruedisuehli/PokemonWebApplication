@@ -104,7 +104,7 @@ The overall website visuals conform to the Pokemon theme. The images used form a
 
 ## Use Cases ##
 ### Use Case 100 ###
-<img src="https://github.com/andreas-ruedisuehli/Pokemon-Collector/blob/226104682806a0c83851f02843959166544b0453/UseCases/UC100.PNG" width=40%>
+<img src="https://github.com/andreas-ruedisuehli/PokemonWebApplication/blob/99f24144a69d368708e095963e9078981255d18e/UseCases/UC100.PNG" width=40%>
 
 - Use Case 101 (Sign up): A user can sign up for the website. To create an account, the user must enter a user name, an email address and a password. In addition the user must agree to the terms and conditions.
 - Use Case 102 (Log in): Once a user has created an account they can log in using their email address and their password.
