@@ -11,7 +11,6 @@ This web application aims to allow collectors to track their Pokemon collections
   * Prototype Design
   * Domain Design
   * [Business Logic Design](#business-logic-design)
-  * [Endpoint Design](#endpoint-design)
 * [Implementation](#implementation) 
   * [Backend Technology](#backend-technology)
   * [Frontend Technology](#frontend-technology)
@@ -127,64 +126,14 @@ The overall website visuals conform to the Pokemon theme. The images used form a
 ### Prototype Design ###
 A bootstrap based static prototype has been created by using a prototyping application.
 
-In this case, the prototype application Bootstrap Studio has been used to create a basic user interface design based on an HTML grid, Bootstrap CSS and JavaScript, including the selection of web fonts and font-based icons.
+The initital mockup of the website interface was designed in Microsoft Powerpoint (see video). The current version implements the prototype application Bootstrap to create a basic user interface design based on an HTML grid, Bootstrap CSS and JavaScript, including the selection of web fonts and font-based icons.
 
-The assets (HTML, CSS, JavaScript, image and font files) has been exported and will be extended in the later during implementation with jQuery, to build a dynamic website.
-
-### Domain Design ###
-The ch.fhnw.acrm.data.domain package contains the following domain objects / entities including getters and setters:
+The assets (HTML, CSS, JavaScript, image and font files) has been exported and will be extended in a later implementation.
 
 ### Business Logic Design ###
 The below SQL relational model displays the relationships contained within this implementation.
 
 <img width="531" alt="SQL Database" src="https://user-images.githubusercontent.com/92316932/150654174-6efa20ae-2a64-4e37-9fac-8ea7c0e37465.png">
-
-
-### Endpoint Design ###
-Path: /api/customer
-
-Method: POST
-
-Sample Request • Header: Content-Type: application/json • Body:
-
-{
-  "agent": {
-    "customers": [
-      null
-    ],
-    "email": "string",
-    "id": 0,
-    "name": "string",
-    "password": "string",
-    "remember": "string"
-  },
-  "email": "string",
-  "id": 0,
-  "mobile": "string",
-  "name": "string"
-}
-• Optional: ...
-
-Success Response • Code: 200 OK • Sample Body:
-
-{
-  "agent": {
-    "customers": [
-      null
-    ],
-    "email": "string",
-    "id": 0,
-    "name": "string",
-    "password": "string",
-    "remember": "string"
-  },
-  "email": "string",
-  "id": 0,
-  "mobile": "string",
-  "name": "string"
-}
-Error Response • Code: 404 NOT FOUND
-
 ## Implementation ##
 
 ### Backend Technology ###
@@ -193,9 +142,11 @@ This Web application is relying on Spring Boot and the following dependencies:
 * Spring Boot
 * Spring Web
 * Spring Data
+* Maven
+* Javascript
 * Java Persistence API (JPA)
-* H2 Database Engine
-* PostgreSQL
+* MySQL
+* Apache Tomcat
 * To bootstrap the application, the Spring Initializr has been used.
 
 Then the following further dependencies has been added to the project pom.xml:
@@ -232,8 +183,9 @@ Java HTML Parser and JWT:
 ### Frontend Technology ###
 This Web application is relying on the following frontend technology/libraries:
 
-jQuery
-Bootstrap
+* Bootstrap
+* JavaServer Pages (HTML)
+* CSS
 
 ## Deployment ##
 The Java Web Application is built on an Apache Tomcat Server which is running on a VPS (IP 92.205.63.166). We bought a Domain name: www.pokemon-collector.ch
