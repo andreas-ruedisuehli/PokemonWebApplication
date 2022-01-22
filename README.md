@@ -134,6 +134,7 @@ The assets (HTML, CSS, JavaScript, image and font files) has been exported and w
 The below SQL relational model displays the relationships contained within this implementation.
 
 <img width="531" alt="SQL Database" src="https://user-images.githubusercontent.com/92316932/150654174-6efa20ae-2a64-4e37-9fac-8ea7c0e37465.png">
+
 ## Implementation ##
 
 ### Backend Technology ###
