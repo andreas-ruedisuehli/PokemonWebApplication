@@ -7,7 +7,7 @@ This web application aims to allow collectors to track their Pokemon collections
   * [Scenario](#scenario)
   * [User Stories](#user-story-documentation)
   * [Use Cases](#use-cases)
-* Design
+* [Design](#design)
   * [Prototype Design](#prototype-design)
   * [Business Logic Design](#business-logic-design)
 * [Implementation](#implementation) 
