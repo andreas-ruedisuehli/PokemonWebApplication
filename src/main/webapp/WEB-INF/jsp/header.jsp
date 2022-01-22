@@ -17,7 +17,7 @@ if (session.getAttribute("userId") != null)
 	<nav
 		class="navbar navbar-dark navbar-expand-lg navigation-clean-search">
 		<div class="container">
-			<a class="navbar-brand">CollectPokemon</a>
+			<a class="navbar-brand">Pokemon-Collector</a>
 			<button data-bs-toggle="collapse" class="navbar-toggler"
 				data-bs-target="#navcol-1">
 				<span class="visually-hidden">Toggle navigation</span><span
