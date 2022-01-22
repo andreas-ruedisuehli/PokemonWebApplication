@@ -33,7 +33,7 @@ New Pokémon sets are constantly releasing bringing with them an influx of new c
 5. As a collector, I want to use edit and create views so that I can manage my collection.
 6. As a collector, I want to have a Web app so that I can use it on different mobile devices and on desktop computers.
 7. As a collector, I want to see a consistent visual appearance so that I can navigate easily, and it looks consistent.
-8. 
+
 ### User Story 1 ###
 Users are directed to this page once they hit the green "Sign Up" button located in the top right hand corner of the web page. Users are then able to create an account that they can use to track their collections. An account can be created by inputting the relevant data into the fields, agreeing to the license terms and then pressing sign up, the account will then be created, assuming that the email address is not already in use and that the passwords match. Passwords are not subject to any guidelines, but are hashed for extra security. Once the user has created their account they will automatically be redirected to the login page.
 
