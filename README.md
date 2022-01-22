@@ -234,10 +234,13 @@ jQuery
 Bootstrap
 
 ## Deployment ##
-This spring boot has been deployed to a goDaddy VPS server.
+The Java Web Application is built on Apache Tomcat Server which is running on a VPS (IP 92.205.63.166). We bought a Domain name: www.pokemon-collector.ch
+which is now directed to our VPS (http://92.205.63.166:8080/pokemon) with the aid of A records an NGIX reverse proxy. SSL was set up with Let's Encrypt.
+When opening www.pokemon-collector.ch from an external browser the home page is loading, however the remaining features are yet to function. When using
+http://92.205.63.166:8080/pokemon everything works properly.
 
 ## User Guide ##
-The Web application can be accessed over the browser by using the following address: http://92.205.63.166:8080/pokemon. An incomplete version can also be found at https://pokemon-collector.ch/ this site however can only displays the homepage and the remaining features are yet to function.
+The Web application can be accessed over the browser by using the following address: http://92.205.63.166:8080/pokemon. An incomplete version can also be found at https://www.pokemon-collector.ch/ this site however can only displays the homepage and the remaining features are yet to function.
 
 ## Project Management ##
 ### Members ###
