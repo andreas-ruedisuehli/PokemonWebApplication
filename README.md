@@ -19,6 +19,8 @@ This web application aims to allow collectors to track their Pokemon collections
 * [User Guide](#user-guide)
 * [Project Management](#project-management)
   * [Members](#members)
+  * [Maintainer](#maintainer)
+  * [Licenses](#licenses)
   
 ## Analysis ##
  ### Scenario ###
@@ -258,7 +260,7 @@ Jarik Geyer
 
 ### Maintainer ###
 Andreas Rüdisühli & Jarik Geyer
-### License ###
+### Licenses ###
 * Apache License, Version 2.0
 * Let's Encrypt
 * NGIX
