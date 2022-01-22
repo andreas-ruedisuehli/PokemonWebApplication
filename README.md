@@ -8,8 +8,7 @@ This web application aims to allow collectors to track their Pokemon collections
   * [User Stories](#user-story-documentation)
   * [Use Cases](#use-cases)
 * Design
-  * Prototype Design
-  * Domain Design
+  * [Prototype Design](#prototype-design)
   * [Business Logic Design](#business-logic-design)
 * [Implementation](#implementation) 
   * [Backend Technology](#backend-technology)
@@ -23,7 +22,7 @@ This web application aims to allow collectors to track their Pokemon collections
   
 ## Analysis ##
  ### Scenario ###
-New Pokémon sets are constantly releasing brining with them an influx of new cards to collect, with thousands of varying cards available. Collectors are amassing large piles of cards and desire a way to keep track of their ever growing collections. This web application allows users to easily track their collections as well as browse through an seamingly endless amount of cards that are yet to be in their possession.
+New Pokémon sets are constantly releasing bringing with them an influx of new cards to collect, with thousands of varying cards available. Collectors are amassing large piles of cards and desire a way to keep track of their ever growing collections. This web application allows users to easily track their collections as well as browse through an seamingly endless amount of cards that are yet to be in their possession.
 
 ## User Story Documentation ##
 ### User Stories ###
@@ -34,6 +33,7 @@ New Pokémon sets are constantly releasing brining with them an influx of new ca
 5. As a collector, I want to use edit and create views so that I can manage my collection.
 6. As a collector, I want to have a Web app so that I can use it on different mobile devices and on desktop computers.
 7. As a collector, I want to see a consistent visual appearance so that I can navigate easily, and it looks consistent.
+8. 
 ### User Story 1 ###
 Users are directed to this page once they hit the green "Sign Up" button located in the top right hand corner of the web page. Users are then able to create an account that they can use to track their collections. An account can be created by inputting the relevant data into the fields, agreeing to the license terms and then pressing sign up, the account will then be created, assuming that the email address is not already in use and that the passwords match. Passwords are not subject to any guidelines, but are hashed for extra security. Once the user has created their account they will automatically be redirected to the login page.
 
@@ -144,42 +144,11 @@ This Web application is relying on Spring Boot and the following dependencies:
 * Spring Data
 * Maven
 * Javascript
-* Java Persistence API (JPA)
 * MySQL
 * Apache Tomcat
-* To bootstrap the application, the Spring Initializr has been used.
+* NGIX
+* VPS
 
-Then the following further dependencies has been added to the project pom.xml:
-
-Swagger and Swagger UI:
-<dependency>
-    <groupId>io.springfox</groupId>
-    <artifactId>springfox-boot-starter</artifactId>
-    <version>3.0.0</version>
-</dependency>
-Java HTML Parser and JWT:
-<dependency>
-    <groupId>org.jsoup</groupId>
-    <artifactId>jsoup</artifactId>
-    <version>1.14.2</version>
-</dependency>
-<dependency>
-    <groupId>io.jsonwebtoken</groupId>
-    <artifactId>jjwt-api</artifactId>
-    <version>0.11.2</version>
-</dependency>
-<dependency>
-    <groupId>io.jsonwebtoken</groupId>
-    <artifactId>jjwt-impl</artifactId>
-    <version>0.11.2</version>
-    <scope>runtime</scope>
-</dependency>
-<dependency>
-    <groupId>io.jsonwebtoken</groupId>
-    <artifactId>jjwt-gson</artifactId>
-    <version>0.11.2</version>
-    <scope>runtime</scope>
-</dependency>
 ### Frontend Technology ###
 This Web application is relying on the following frontend technology/libraries:
 
@@ -199,7 +168,7 @@ The Web application can be accessed over the browser by using the following addr
 ## Project Management ##
 ### Members ###
 Andreas Rüdisühli
-* Backend
+* Back-end
 
 Sven Varkonyi
 * Generalist
@@ -208,7 +177,7 @@ Matthias Allemann
 * SQL
 
 Jarik Geyer
-* Frontend
+* Front-end
 
 ### Maintainer ###
 Andreas Rüdisühli & Jarik Geyer
