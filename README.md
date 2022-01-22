@@ -112,7 +112,7 @@ The overall website visuals conform to the Pokemon theme. The images used form a
 - Use Case 104 (Log out): After being logged in, the user can log out again.
 
 ### Use Case 200 ###
-<img src="https://github.com/andreas-ruedisuehli/Pokemon-Collector/blob/226104682806a0c83851f02843959166544b0453/UseCases/UC200.PNG" width=40%>
+<img src="https://github.com/andreas-ruedisuehli/PokemonWebApplication/blob/ccea646579108e98664e79c4477012af51214ebf/UseCases/UC200.PNG" width=40%>
 
 - Use Case 201 (View Collections): The user can view the collections which are included in the website. Clicking on a collection will open an overview of the individual cards within the set.
 - Use Case 202 (Select Card): The user can select an individual card–the chosen card is then displayed alone with additional information.
